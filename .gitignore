@@ -1,0 +1,53 @@
+# Ignore Maven/Gradle build directories
+target/
+build/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore compiled bytecode files
+*.class
+
+# Ignore generated JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore dependency directories
+node_modules/
+bower_components/
+
+# Ignore all application.properties files
+**/application.properties
+**/application.yml
+
+# Ignore environment variable files
+.env
+
+# Ignore operating system specific files
+Thumbs.db
+.DS_Store
